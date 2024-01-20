@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Install daisy UI and tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .Montserrat {
+        font-family: "Montserrat", sans-serif;
+      }
+      .bg-primary-color {
+        color: #003aaa;
+      }
+    </style>
+    <title>E-Com, Shop</title>
+  </head>
+  <body>
+    <!-- Header Part -->
+    <header>
+      <nav
+        class="flex flex-col sm:flex-row items-center justify-between Montserrat">
+        <div class="shadow-cyan-500/50 pl-5">
+          <img src="Education.png" alt="Logo" />
+        </div>
+        <div class="md:space-x-8 space-x-4 sm:col-span-1 space-y-8  md:space-y-5 text-center">
+          <button class="text-blue-700"><a href="#" >HOME</a></button>
+          <button><a href="">PRODUCTS</a></button>
+          <button>BEST DEALS</button>
+          <button>OFFERS</button>
+          <button>ABOUT US</button>
+          <button>CONTACT</button>
+        </div>
+        <div class="space-x mt-7 sm:flex ml-4">
+          <button
+            class="bg-[#003AAA] text-white p-4 rounded-lg mr-5 text-center w-28"
+          >
+            Sign Up
+          </button>
+          <button
+            class="mr-5 bg-[#003AAA] text-white p-4 rounded-lg text-center w-28"
+          >
+            Log in
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Part -->
+
+    <main>
+      <!-- First Banner -->
+      <section
+        class="flex justify-between items-center mt-8 bg-[#26507F] h-fit sm:w-full p-2"
+      >
+        <div class=" sm:ml-40  sm:space-y-10 space-y-5 text-white Montserrat">
+          <h1 class="sm:text-5xl text-2xl sm:font-semibold font-bold leading-8 sm:leading-relaxed ml-5">
+            START YOUR JOURNEY <br />
+            WITH OUR ACCESSORIES
+          </h1>
+          <button
+            class="font-semibold bg-white text-[#26507F] leading-relaxed rounded-md p-3 ml-5"
+          >
+            <a href="#">SHOP NOW</a>
+          </button>
+        </div>
+        <div class="sm:mr-40 ">
+          <img src="examination.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Card Section -->
+      <section class="grid border-cyan-600 border blue mt-10">
+        <img src="Shipping.svg" alt="shipping" />
+        <div>
+          <h2>FREE SHIPPING</h2>
+          <p>
+            We're delighted to offer you the added convenience of Free Shipping
+            on all your purchases.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer part -->
+
+    <footer></footer>
+  </body>
+</html>
